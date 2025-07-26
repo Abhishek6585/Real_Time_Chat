@@ -1,18 +1,15 @@
+
 {
   "name": "chat-app",
   "version": "1.0.0",
   "description": "Real-time chat app using Node.js and Socket.IO",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "lint": "eslint ."
-     "test": "echo \"No tests defined\" && exit 0"
+    "start": "node server.js"
+    "test": "echo \"No tests defined\" && exit 0"
   },
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.7.2"
-  },
-  "devDependencies": {
-    "eslint": "^8.56.0"
   }
 }
