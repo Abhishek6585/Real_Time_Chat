@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   tools {
-    nodejs 'node18'  // Same name from global config
+    nodejs 'node'  // Same name from global config
   }
 
   stages {
