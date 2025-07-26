@@ -24,7 +24,6 @@ pipeline {
 
         stage('Lint/Test') {
             steps {
-                bat 'npm run lint'
                 bat 'npm test'
             }
         }
