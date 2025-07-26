@@ -7,10 +7,11 @@ pipeline {
 
   stages {
     stage('Checkout') {
-      steps {
-        git 'https://github.com/Abhishek6585/Real_Time_Chat.git'
-      }
-    }
+  steps {
+    git branch: 'main', url: 'https://github.com/Abhishek6585/Real_Time_Chat.git'
+  }
+}
+
 
     stage('Install') {
       steps {
